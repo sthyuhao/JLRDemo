@@ -1,3 +1,8 @@
+JLRDemo
+
+使用JLRoutes构建的的组件化Demo
+
+
     //    navigation Push规则
     [JLRoutes addRoute:@"/NaviPush/:controller" handler:^BOOL(NSDictionary<NSString *,NSString *> * _Nonnull parameters) {
         UIViewController *currentVc = [self currentViewController];
